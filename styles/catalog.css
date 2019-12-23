@@ -1,0 +1,111 @@
+.product-card__catalog {
+  width: 944px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 20px; }
+
+.product-card {
+  width: 200px;
+  padding-top: 30px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #000;
+  border: 1px solid #f3f3f3;
+  margin-bottom: 50px;
+  padding-bottom: 15px; }
+
+.product-card:not(:nth-child(4n)) {
+  margin-right: 48px; }
+
+.container {
+  width: 170px;
+  margin: auto; }
+
+.product-card__photo {
+  display: block;
+  width: 160px;
+  height: 134px;
+  margin: auto; }
+
+.product-card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 45px;
+  padding-bottom: 14px; }
+
+.product-card__name {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500; }
+
+.product-card__review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px; }
+
+.product-card__stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15px; }
+
+.product-card__stars div {
+  width: 15px;
+  margin-right: 4px;
+  background: no-repeat center url(../images/star-active.svg); }
+
+.product-card__stars div:last-child {
+  background-image: url(../images/star.svg); }
+
+.product-card__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 18px;
+  line-height: 19px; }
+
+.product-card__price p:first-child {
+  margin-top: 2px; }
+
+.product-card__price p:last-child {
+  font-size: 16px;
+  font-weight: 700; }
+
+.product-card__buy {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  background-color: #00acdc;
+  cursor: pointer;
+  width: 100%;
+  line-height: 36px;
+  font-family: "Roboto", sans-serif; }
+
+.product-card__buy:hover {
+  color: #00acdc;
+  background-color: #fff; }
+
+/*# sourceMappingURL=catalog.css.map */
