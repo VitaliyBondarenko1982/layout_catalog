@@ -43,7 +43,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 45px;
-  padding-bottom: 14px; }
+  margin-bottom: 14px; }
 
 .product-card__name {
   margin-bottom: 4px;
@@ -58,7 +58,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 20px; }
+  margin-bottom: 20px; }
 
 .product-card__stars {
   display: -webkit-box;
@@ -81,7 +81,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
   line-height: 19px; }
 
 .product-card__price p:first-child {
